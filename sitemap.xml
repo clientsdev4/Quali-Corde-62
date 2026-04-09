@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
     <url>
         <loc>https://cordiste-62.com/</loc>
@@ -29,7 +29,7 @@
         </image:image>
         <image:image>
             <image:loc>https://cordiste-62.com/poseur-de-filet-de-securite-62.webp</image:loc>
-            <image:title>poseur de filet de sécurité 62 Pas-de-Calais</image:title>
+            <image:title>poseur de filet de securite 62 Pas-de-Calais</image:title>
             <image:caption>Installation de filets de securite anti-chute par nos equipes du 62</image:caption>
         </image:image>
         <image:image>
@@ -44,7 +44,7 @@
         </image:image>
         <image:image>
             <image:loc>https://cordiste-62.com/soudure-a-l-arc-62.webp</image:loc>
-            <image:title>soudure à l arc 62 Pas-de-Calais</image:title>
+            <image:title>soudure a l arc 62 Pas-de-Calais</image:title>
             <image:caption>Soudure a l arc et maintenance d eoliennes en hauteur dans le 62</image:caption>
         </image:image>
     </url>
@@ -147,7 +147,7 @@
         <priority>0.8</priority>
         <image:image>
             <image:loc>https://cordiste-62.com/poseur-de-filet-de-securite-62.webp</image:loc>
-            <image:title>poseur de filet de sécurité 62 Pas-de-Calais</image:title>
+            <image:title>poseur de filet de securite 62 Pas-de-Calais</image:title>
             <image:caption>Installation de filets de securite anti-chute dans le 62</image:caption>
         </image:image>
     </url>
