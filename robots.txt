@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /traitement.php
+Disallow: /traitement-ads.php
+Disallow: /mentions-legales.html
+Sitemap: https://cordiste-62.com/sitemap.xml

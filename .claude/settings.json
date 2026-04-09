@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nslookup -type=TXT _github-pages-challenge-Casperdev4.cordiste-59.com 8.8.8.8)",
+      "Bash(cp cordiste-carvin.html cordiste-berck.html)",
+      "Bash(sed -i 's/Carvin/Berck/g; s/carvin/berck/g; s/UNE ENTREPRISE BIEN ETABLIE A BERCK/UNE ENTREPRISE RECONNUE A BERCK/g; s/DES CORDISTES QUALIFIES A BERCK/DES CORDISTES EXPERIMENTES A BERCK/g' cordiste-berck.html)",
+      "Bash(cp cordiste-henin-beaumont.html cordiste-le-touquet-paris-plage.html)",
+      "Bash(sed -i 's/Hénin-Beaumont/Le Touquet-Paris-Plage/g; s/Henin-Beaumont/Le Touquet-Paris-Plage/g; s/henin-beaumont/le-touquet-paris-plage/g; s/le bassin minier alentour/la cote d'\\\\''Opale/g; s/UNE ENTREPRISE BIEN ETABLIE A LE TOUQUET-PARIS-PLAGE/UNE ENTREPRISE RECONNUE SUR LA COTE D'\\\\''OPALE/g' cordiste-le-touquet-paris-plage.html)",
+      "Bash(cp cordiste-henin-beaumont.html cordiste-etaples.html)",
+      "Bash(sed -i 's/Hénin-Beaumont/Étaples/g; s/Henin-Beaumont/Etaples/g; s/henin-beaumont/etaples/g; s/le bassin minier alentour/la cote d'\\\\''Opale/g; s/UNE ENTREPRISE BIEN ETABLIE A ÉTAPLES/UNE ENTREPRISE RECONNUE A ETAPLES/g; s/DES CORDISTES QUALIFIES A ÉTAPLES/DES CORDISTES DIPLOMES A ETAPLES/g' cordiste-etaples.html)",
+      "Bash(cp cordiste-henin-beaumont.html cordiste-outreau.html)",
+      "Bash(sed -i 's/Hénin-Beaumont/Outreau/g; s/Henin-Beaumont/Outreau/g; s/henin-beaumont/outreau/g; s/le bassin minier alentour/le boulonnais/g; s/UNE ENTREPRISE BIEN ETABLIE A OUTREAU/UNE ENTREPRISE BIEN IMPLANTEE SUR LE BOULONNAIS/g' cordiste-outreau.html)",
+      "Bash(cp cordiste-carvin.html cordiste-wimereux.html)",
+      "Bash(sed -i 's/Carvin/Wimereux/g; s/carvin/wimereux/g; s/le bassin minier alentour/la cote d'\\\\''Opale/g; s/UNE ENTREPRISE BIEN ETABLIE A WIMEREUX/UNE ENTREPRISE RECONNUE SUR LA COTE D'\\\\''OPALE/g; s/DES CORDISTES QUALIFIES A WIMEREUX/DES CORDISTES DIPLOMES A WIMEREUX/g' cordiste-wimereux.html)",
+      "Bash(cp cordiste-carvin.html cordiste-bully-les-mines.html)",
+      "Bash(sed -i 's/Carvin/Bully-les-Mines/g; s/carvin/bully-les-mines/g; s/UNE ENTREPRISE BIEN ETABLIE A BULLY-LES-MINES/UNE ENTREPRISE RECONNUE SUR LE BASSIN MINIER/g' cordiste-bully-les-mines.html)",
+      "Bash(cp cordiste-carvin.html cordiste-auchel.html)",
+      "Bash(sed -i 's/Carvin/Auchel/g; s/carvin/auchel/g; s/UNE ENTREPRISE BIEN ETABLIE A AUCHEL/UNE ENTREPRISE BIEN IMPLANTEE A AUCHEL/g; s/DES CORDISTES QUALIFIES A AUCHEL/DES CORDISTES EXPERIMENTES A AUCHEL/g' cordiste-auchel.html)",
+      "Bash(cp cordiste-henin-beaumont.html cordiste-avion.html)",
+      "Bash(mv nettoyage-vitre-en-hauteur-59.webp nettoyage-vitre-en-hauteur-62.webp)",
+      "Bash(mv peinture-en-hauteur-59.webp peinture-en-hauteur-62.webp)",
+      "Bash(mv nettoyage-silo-59.webp nettoyage-silo-62.webp)",
+      "Bash(mv ligne-de-vie-toiture-59.webp ligne-de-vie-toiture-62.webp)",
+      "Bash(mv poseur-de-filet-de-securite-59.webp poseur-de-filet-de-securite-62.webp)",
+      "Bash(ls *.webp)",
+      "Read(//tmp/**)",
+      "Bash(python -c \"import xml.etree.ElementTree as ET; ET.parse\\('sitemap.xml'\\); print\\('OK'\\)\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Webpr\\Desktop\\Quali-Corde-Nord"
+    ]
+  }
+}

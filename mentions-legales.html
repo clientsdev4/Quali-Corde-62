@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, follow">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Mentions Légales - Quali Corde Nord</title>
+    <link rel="icon" type="image/x-icon" href="https://cordiste-62.com/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" sizes="96x96"
+        href="https://cordiste-62.com/logo/apple-icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cordiste-62.com/logo/android-icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://cordiste-62.com/logo/android-icon-96x96.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://cordiste-62.com/logo/ms-icon-32x32.png">
+    <meta name="msapplication-TileImage" content="https://cordiste-62.com/logo/ms-icon-96x96.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+        <nav class="navicorde">
+            <a href="https://cordiste-62.com/" class="logo-link">
+                <img src="logo.webp" alt="entreprise Cordiste 62 Pas-de-Calais" class="logo"
+                    loading="lazy" decoding="async">
+            </a>
+            <input type="checkbox" id="btn">
+            <label for="btn" class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="navicordenav">
+                <li class="nav-item">
+                    <a href="https://cordiste-62.com/" title="Cordiste 62">ACCUEIL</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://cordiste-62.com/#prestation" title="services cordiste">NOS SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="entreprise-de-cordiste-62.html"
+                        title="Cordiste 62 Pas-de-Calais">L'ENTREPRISE</a>
+                </li>
+                <li class="nav-item">
+                    <a href="devis-cordiste-62.html" title="tarif nettoyage vitre en hauteur">DEVIS
+                        GRATUIT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="tel:+33320843465" title="devis Cordiste 62">03 20 84 34 65</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="img-principale">
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="quali-corde-nord.mp4" type="video/mp4">
+            </video>
+        </div>
+        <h1>MENTIONS LÉGALES</h1>
+        <hr class="hr1">
+        <h2>Propriétaire Quali Corde Nord</h2>
+        <p>SASU, dont le siège social est établi au BIS, 25 RUE MARCEL BOUDERIEZ, 59493 VILLENEUVE-D'ASCQ.
+            Immatriculée au Registre du Commerce et des Sociétés sous le numéro 799 766 654. Le numéro SIRET est le :
+            799 766 654 00039.</p>
+        <h2>Hébergeur Ionos</h2>
+        <p>Société à responsabilité limitée au capital de 100 000 €, dont le siège social est établi au 7 place de la
+            gare
+            57200 Sarreguemines Cedex .
+            Immatriculée au Registre du Commerce et des Sociétés sous le numéro RCS 799 766 654.</p>
+    </main>
+    <footer>
+        <div id="contact">
+
+            <h5>NOS RÉSEAUX SOCIAUX</h5>
+            <div class="reseau-contact">
+                <a href="https://www.linkedin.com/company/quali-corde-sud?trk=public_post_reshare_feed-actor-image" target="_blank"
+                    title="linkedin-cordiste"> Linkedin -</a>
+                <a href="https://www.instagram.com/qualicordecouverture/" target="_blank"
+                    title="instagram-cordiste"> Instagram -</a>
+                <a href="https://www.snapchat.com/" target="_blank" title="snapchat-cordiste">
+                    Snapchat -</a>
+                <a href="https://www.facebook.com/p/Qualicorde-Sud-61568073201748/" target="_blank"
+                    title="facebook-cordiste">
+                    Facebook -</a>
+                <a href="https://www.tiktok.com/@tikcordiste?is_from_webapp=1&sender_device=pc" target="_blank" title="tiktok-cordiste">
+                    TikTok</a>
+            </div>
+            <h5>CONTACTEZ - NOUS</h5>
+            <p class="liens">Tel : <a href="tel:+33320843465" target="_blank" title="services Cordiste 62">03 20 84 34 65</a></p>
+            <p class="liens">E-mail : <a href="mailto:contact@quali-corde.com" target="_blank"
+                    title="services Cordiste 62">contact@quali-corde.com</a></p>
+
+            <div class="liens-wp">
+                <h6>&copy; Copyright 2026 - Site réalisé par <a href="https://kazeko-fight.com/" target="_blank">webprime</a> - <a
+                        href="mentions-legales.html" target="_blank">mentions légales</a>.
+                </h6>
+            </div>
+        </div>
+        <div class="icontient"><a href="tel:+33320843465">03 20 84 34 65</a></div>
+    </footer>
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink() {
+            list.forEach((item) =>
+                item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+            item.addEventListener('mouseover', activeLink));
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var menuToggle = document.getElementById("btn");
+            var navLinks = document.querySelectorAll(".navicordenav a");
+            navLinks.forEach(function (link) {
+                link.addEventListener("click", function () {
+                    menuToggle.checked = false;
+                });
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.8
+            };
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('slide-up');
+                    }
+                });
+            }, options);
+
+            const elements = document.querySelectorAll('.nosservices h3, .bouton3');
+
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+</body>
+
+</html>
